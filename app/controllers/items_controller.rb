@@ -1,6 +1,6 @@
 class ItemsController < ApplicationController
 
-  def index
+  def new
     @categories=Category.roots
   end
 
