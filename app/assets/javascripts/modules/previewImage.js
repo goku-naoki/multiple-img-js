@@ -20,7 +20,7 @@ $(function () {
   //     alert("３枚以上選択できません");
   //   }
   // });
-  //$(".form").on("change", ".form__file-input", function (e) {
+
   $("").on("", "", function (e) {
     alert("Good job!!!");
     const file = e.target.files[0];
