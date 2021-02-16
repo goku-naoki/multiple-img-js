@@ -13,15 +13,16 @@ $(function () {
     return inputEl;
   }
 
-  $("#trigger").on("click", function (e) {
-    if ($(".img-box__element").length < 3) {
-      $(".form__file-input:last").trigger("click");
-    } else {
-      alert("３枚以上選択できません");
-    }
-  });
-
-  $(".form").on("change", ".form__file-input", function (e) {
+  // $("#trigger").on("click", function (e) {
+  //   if ($(".img-box__element").length < 3) {
+  //     $(".form__file-input:last").trigger("click");
+  //   } else {
+  //     alert("３枚以上選択できません");
+  //   }
+  // });
+  //$(".form").on("change", ".form__file-input", function (e) {
+  $("").on("", "", function (e) {
+    alert("Good job!!!");
     const file = e.target.files[0];
     const url = URL.createObjectURL(file);
 
