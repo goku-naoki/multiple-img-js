@@ -1,7 +1,7 @@
 $(function () {
   function buildImage(url) {
     const imageEl = `
-      <img src="${url}" class="img-box__element">
+      <img src="url" class="img-box__element">
       `;
     return imageEl;
   }
@@ -30,8 +30,6 @@ $(function () {
     const target = $(".img-box");
     target.append(imageElement);
 
-    if ($(".form__file-input").length < 3) {
-      $(".form").append(buildInput());
-    }
+    $(".form").append(buildInput());
   });
 });
